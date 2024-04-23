@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Available Riders</title>
+</head>
+<body>
+
+<h1>Search Results</h1>
+    {% if riders %}
+        <ul>
+            {% for rider in riders %}
+                <li>{{ rider.username }} - {{ rider.phone }}</li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>No riders found.</p>
+    {% endif %}
+
+</body>
+</html>
