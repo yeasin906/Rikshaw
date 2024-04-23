@@ -19,6 +19,7 @@ from django.urls import path
 from rb.views import *
 
 urlpatterns = [
+    path('searchrider/', searchrider, name='searchrider'),
     path('admin/', admin.site.urls),
     path('home/', home, name='home'),
     path('login/', login, name='login'),
