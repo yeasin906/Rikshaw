@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="700dcbf6-026f-44a0-8057-6408ec44f5d4" name="Changes" comment="6th commit">
-      <change afterPath="$PROJECT_DIR$/templates/searchresult.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/searchrider.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rb/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/rb/admin.py" afterDir="false" />
-    </list>
+    <list default="true" id="700dcbf6-026f-44a0-8057-6408ec44f5d4" name="Changes" comment="10th commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -123,7 +118,39 @@
       <option name="project" value="LOCAL" />
       <updated>1713850629657</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="7th commit">
+      <option name="closed" value="true" />
+      <created>1713869992511</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1713869992511</updated>
+    </task>
+    <task id="LOCAL-00009" summary="8th commit">
+      <option name="closed" value="true" />
+      <created>1713870086630</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1713870086630</updated>
+    </task>
+    <task id="LOCAL-00010" summary="9th commit">
+      <option name="closed" value="true" />
+      <created>1713875374710</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1713875374711</updated>
+    </task>
+    <task id="LOCAL-00011" summary="10th commit">
+      <option name="closed" value="true" />
+      <created>1713875390960</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1713875390960</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -142,6 +169,10 @@
     <MESSAGE value="2nd commit" />
     <MESSAGE value="3rd commit" />
     <MESSAGE value="6th commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="6th commit" />
+    <MESSAGE value="7th commit" />
+    <MESSAGE value="8th commit" />
+    <MESSAGE value="9th commit" />
+    <MESSAGE value="10th commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="10th commit" />
   </component>
 </project>
