@@ -3,6 +3,7 @@ from django.contrib.auth import authenticate, login as auth_login
 from django.contrib.auth.models import User
 from django.contrib import messages
 from django.http import HttpResponse
+from .models import Rider
 
 # Create your views here.
 def home(request):
@@ -38,3 +39,15 @@ def signup(request):
             return redirect('login')
 
     return render(request, template_name='signup.html')
+
+
+def searchrider(request):
+    if request.method == 'POST':
+        pickup_location = request.POST.get('pickup')
+        destination_location = request.POST.get('destination')
+
+        if pickup_location and destination_location:
+            riders = Rider.objects.filter(is_available=True)
+            return render(request, 'searchresult.html', {'riders': riders})
+
+    return render(request,'searchrider.html')
