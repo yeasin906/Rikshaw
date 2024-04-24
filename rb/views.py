@@ -8,6 +8,8 @@ from .models import Rider
 # Create your views here.
 def home(request):
     return render(request,'home.html')
+def index(request):
+    return render(request,'index.html')
 def login(request):
     if request.method=='POST':
         username=request.POST.get('username')
@@ -17,7 +19,7 @@ def login(request):
 
         if user is not None:
             auth_login(request, user)
-            return redirect('home')
+            return redirect('index')
         else:
             return HttpResponse('Username or Password is incorrect')
 
