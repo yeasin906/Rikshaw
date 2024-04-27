@@ -4,6 +4,7 @@ from django.contrib.auth.models import User
 from django.contrib import messages
 from django.http import HttpResponse
 from .models import Rider
+from django.shortcuts import get_object_or_404
 
 # Create your views here.
 def home(request):
@@ -53,3 +54,6 @@ def searchrider(request):
             return render(request, 'searchresult.html', {'riders': riders})
 
     return render(request,'searchrider.html')
+def detail(request, rider_id):
+    rider = get_object_or_404(Rider, pk=rider_id)
+    return render(request, 'riderdetail.html', {'rider': rider})
