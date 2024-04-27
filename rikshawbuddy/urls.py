@@ -21,6 +21,7 @@ from rb.views import *
 urlpatterns = [
     path('searchrider/', searchrider, name='searchrider'),
     path('admin/', admin.site.urls),
+    path('detail/<int:rider_id>/', detail, name='detail'),
     path('home/', home, name='home'),
     path('login/', login, name='login'),
     path('', signup, name='signup'),
