@@ -10,6 +10,7 @@
         <ul>
             {% for rider in riders %}
                 <li>{{ rider.username }} - {{ rider.phone }}</li>
+            <a href="{% url 'detail' rider.id %}">View Details</a>
             {% endfor %}
         </ul>
     {% else %}
