@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="700dcbf6-026f-44a0-8057-6408ec44f5d4" name="Changes" comment="eleven COMMIT">
+    <list default="true" id="700dcbf6-026f-44a0-8057-6408ec44f5d4" name="Changes" comment="First commit">
+      <change beforePath="$PROJECT_DIR$/.idea/Rikshaw.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Rikshaw.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_27_2024_4_09_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_27_2024_4_09_PM__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/searchresult.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/searchresult.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,12 +37,12 @@
     &quot;assignee&quot;: &quot;Umaizabibi&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/yeasin906/Rikshaw.git&quot;,
-    &quot;accountId&quot;: &quot;210f00e7-bb9b-4d0f-981d-40955ad41031&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/yeasin906/Rikshaw.git",
+    "accountId": "fd4f69cd-f79b-40d7-9224-bb8d9e55c7a1"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -280,6 +283,7 @@
     <MESSAGE value="9th commit" />
     <MESSAGE value="TEN COMMIT" />
     <MESSAGE value="eleven COMMIT" />
-    <option name="LAST_COMMIT_MESSAGE" value="eleven COMMIT" />
+    <MESSAGE value="First commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
   </component>
 </project>
