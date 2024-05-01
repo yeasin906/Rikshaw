@@ -37,7 +37,17 @@ a {
 a:hover {
     text-decoration: underline;
 }
-
+.btn{
+    padding: 10px 20px;
+    background: #fff;
+    color: #37acef;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow: 0 3px 0 0 #0f0f0f;
+}
 .clr {
     clear: both;
 }
@@ -51,8 +61,8 @@ a:hover {
             <div class="banner_text">
                 <p>{{rider.username}}</p>
                <p>{{rider.email}}</p>
-<p>{{rider.phone}}</p>
-<a href="{% url 'home' %}">Home</a>
+<p>{{rider.phone}}</p><br>
+<a href="{% url 'home' %}" class="btn btn-outline-primary">Home</a>
             </div>
             <div class="clr"></div>
         </div>
