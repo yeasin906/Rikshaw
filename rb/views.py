@@ -1,5 +1,5 @@
 from django.shortcuts import render, redirect
-from django.contrib.auth import authenticate, login as auth_login
+from django.contrib.auth import authenticate, login as auth_login,logout
 from django.contrib.auth.models import User
 from django.contrib import messages
 from django.http import HttpResponse
@@ -42,6 +42,10 @@ def signup(request):
             return redirect('login')
 
     return render(request, template_name='signup.html')
+
+def LogoutPage(request):
+    logout(request)
+    return redirect('login')
 
 
 def searchrider(request):
