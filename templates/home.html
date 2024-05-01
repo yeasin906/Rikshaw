@@ -91,7 +91,7 @@
     <h3>Welcome to Rickshaw Buddy</h3>
     <form method="post" action="{% url 'searchrider' %}">
         {% csrf_token %}
-        <label for="pickup">Pickup Location:</label>
+        <label for="pickup">Current Location:</label>
         <input type="text" id="pickup" name="pickup" placeholder="Enter pickup location" required>
         <br> <br>
         <label for="destination">Destination Location:</label>
