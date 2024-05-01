@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="700dcbf6-026f-44a0-8057-6408ec44f5d4" name="Changes" comment="7th commit">
+    <list default="true" id="700dcbf6-026f-44a0-8057-6408ec44f5d4" name="Changes" comment="9th commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,18 +29,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Umaizabibi"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Umaizabibi&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/yeasin906/Rikshaw.git",
-    "accountId": "210f00e7-bb9b-4d0f-981d-40955ad41031"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/yeasin906/Rikshaw.git&quot;,
+    &quot;accountId&quot;: &quot;210f00e7-bb9b-4d0f-981d-40955ad41031&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -222,7 +222,23 @@
       <option name="project" value="LOCAL" />
       <updated>1714546905439</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="8th commit">
+      <option name="closed" value="true" />
+      <created>1714547781467</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1714547781468</updated>
+    </task>
+    <task id="LOCAL-00020" summary="9th commit">
+      <option name="closed" value="true" />
+      <created>1714547902103</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1714547902103</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -238,8 +254,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="3rd commit" />
-    <MESSAGE value="8th commit" />
-    <MESSAGE value="9th commit" />
     <MESSAGE value="10th commit" />
     <MESSAGE value="1st commit" />
     <MESSAGE value="2nd commit" />
@@ -247,6 +261,8 @@
     <MESSAGE value="5th commit" />
     <MESSAGE value="6th commit" />
     <MESSAGE value="7th commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="7th commit" />
+    <MESSAGE value="8th commit" />
+    <MESSAGE value="9th commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="9th commit" />
   </component>
 </project>

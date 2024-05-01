@@ -3,19 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <title>Rickshaw Buddy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            padding: 50px;
+        }
+
+        h3 {
+            color: #333;
+            text-align: center;
+        }
+
+        form {
+            background-color: #fff;
+            padding: 50px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #666;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+            display: block;
+            margin-top: 10px;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-<h3>Welcome to Rickshaw Buddy</h3>
- <form method="post" action="{% url 'searchrider' %}">
-         {% csrf_token %}
+    <h3>Welcome to Rickshaw Buddy</h3>
+    <form method="post" action="{% url 'searchrider' %}">
+        {% csrf_token %}
         <label for="pickup">Pickup Location:</label>
         <input type="text" id="pickup" name="pickup" placeholder="Enter pickup location" required>
-        <br>
+        <br> <br>
         <label for="destination">Destination Location:</label>
         <input type="text" id="destination" name="destination" placeholder="Enter destination location" required>
-        <br>
+        <br> <br>
         <button type="submit">Search</button><br>
-     <a  href="{% url 'logout' %}">Logout</a>
+        <a href="{% url 'logout' %}">Logout</a>
     </form>
 </body>
 </html>
