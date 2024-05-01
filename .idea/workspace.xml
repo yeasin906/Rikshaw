@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="700dcbf6-026f-44a0-8057-6408ec44f5d4" name="Changes" comment="fourteen COMMIT">
+    <list default="true" id="700dcbf6-026f-44a0-8057-6408ec44f5d4" name="Changes" comment="fifteen commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/riderdetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/riderdetail.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -260,7 +261,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714595242081</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="fifteen commit">
+      <option name="closed" value="true" />
+      <created>1714595618354</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1714595618354</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -288,6 +297,7 @@
     <MESSAGE value="TEN COMMIT" />
     <MESSAGE value="eleven COMMIT" />
     <MESSAGE value="fourteen COMMIT" />
-    <option name="LAST_COMMIT_MESSAGE" value="fourteen COMMIT" />
+    <MESSAGE value="fifteen commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="fifteen commit" />
   </component>
 </project>
