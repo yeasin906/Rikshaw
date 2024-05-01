@@ -3,14 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #c49999;
+;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            background-color: #a25f5f;
+            padding: 10px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 10px;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        p {
+            color: #666;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
 <h1>Search Results</h1>
     {% if riders %}
         <ul>
             {% for rider in riders %}
-                <li>{{ rider.username }} - {{ rider.phone }}</li>
-            <a href="{% url 'detail' rider.id %}">View Details</a>
+                <li>{{ rider.username }} - {{ rider.phone }} <a href="{% url 'detail' rider.id %}">View Details</a></li>
             {% endfor %}
         </ul>
     {% else %}
