@@ -24,5 +24,6 @@ urlpatterns = [
     path('detail/<int:rider_id>/', detail, name='detail'),
     path('home/', home, name='home'),
     path('login/', login, name='login'),
+    path('logout/',LogoutPage,name='logout'),
     path('', signup, name='signup'),
 ]
