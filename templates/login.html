@@ -1,87 +1,47 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Login Page</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-    }
+<title>Login Form</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- Custom Theme files -->
 
-    .container {
-      background-color: #fff;
-      border-radius: 8px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      padding: 40px;
-      width: 300px;
-    }
-
-    .container h2 {
-      text-align: center;
-      margin-bottom: 20px;
-    }
-
-    .form-group {
-      margin-bottom: 20px;
-    }
-
-    .form-group label {
-      display: block;
-      font-weight: bold;
-    }
-
-    .form-group input[type="text"],
-    .form-group input[type="password"] {
-      width: 100%;
-      padding: 10px;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-      box-sizing: border-box;
-    }
-
-    .form-group input[type="submit"] {
-      background-color: #007bff;
-      color: #fff;
-      border: none;
-      border-radius: 4px;
-      padding: 12px 20px;
-      cursor: pointer;
-      width: 100%;
-      font-size: 16px;
-    }
-
-    .form-group input[type="submit"]:hover {
-      background-color: #0056b3;
-    }
-  </style>
+<!-- //Custom Theme files -->
+<!-- web font -->
+<link href="//fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i" rel="stylesheet">
+<!-- //web font -->
 </head>
 <body>
-<form action="#" method="post">
-  <div class="container">
-    {% csrf_token %}
-    <h2>Login</h2>
-    <form action="#" method="post">
-      <div class="form-group">
-        <label for="username">Username</label>
-        <input type="text" id="username" name="username" required>
-      </div>
-      <div class="form-group">
-        <label for="password">Password</label>
-        <input type="password" id="password" name="password" required>
-      </div>
-      <div class="form-group">
-        <input type="submit" value="Login">
-      </div>
-    </form>
-  </div>
-</form>
+    <!-- main -->
+    <div class="main-w3layouts wrapper">
+       <h1>Login Form</h1>
+       <div class="main-agileinfo">
+          <div class="agileits-top">
+             <form action="#" method="post">
+                {% csrf_token %}
+                <input class="text" type="text" name="username" placeholder="User Name" required=""><br>
+                <input class="text" type="password" name="password" placeholder="Password" required="">
+                <input type="submit" value="LOGIN"><br>
+             </form>
+             <a href="{% url 'signup'%}">Create a account</a>
+          </div>
+       </div>
+
+       <ul class="colorlib-bubbles">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+       </ul>
+    </div>
+    <!-- //main -->
 </body>
 </html>

@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="700dcbf6-026f-44a0-8057-6408ec44f5d4" name="Changes" comment="5th commit">
-      <change beforePath="$PROJECT_DIR$/rikshawbuddy/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/rikshawbuddy/urls.py" afterDir="false" />
+    <list default="true" id="700dcbf6-026f-44a0-8057-6408ec44f5d4" name="Changes" comment="7th commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,7 +206,23 @@
       <option name="project" value="LOCAL" />
       <updated>1714546604190</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="6th commit">
+      <option name="closed" value="true" />
+      <created>1714546758652</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1714546758652</updated>
+    </task>
+    <task id="LOCAL-00018" summary="7th commit">
+      <option name="closed" value="true" />
+      <created>1714546905439</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1714546905439</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -220,8 +238,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="3rd commit" />
-    <MESSAGE value="6th commit" />
-    <MESSAGE value="7th commit" />
     <MESSAGE value="8th commit" />
     <MESSAGE value="9th commit" />
     <MESSAGE value="10th commit" />
@@ -229,6 +245,8 @@
     <MESSAGE value="2nd commit" />
     <MESSAGE value="4th commit" />
     <MESSAGE value="5th commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="5th commit" />
+    <MESSAGE value="6th commit" />
+    <MESSAGE value="7th commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="7th commit" />
   </component>
 </project>
