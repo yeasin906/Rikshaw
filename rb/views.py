@@ -5,6 +5,7 @@ from django.contrib import messages
 from django.http import HttpResponse
 from .models import Rider
 from django.shortcuts import get_object_or_404
+from django.contrib.auth.decorators import login_required
 
 # Create your views here.
 def home(request):
