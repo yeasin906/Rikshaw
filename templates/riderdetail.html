@@ -4,11 +4,59 @@
     <meta charset="UTF-8">
     <title>Rider</title>
 </head>
+<style>
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#banner {
+    background-color: #c49999;
+    padding: 20px 0;
+}
+
+.banner_text {
+    text-align: center;
+}
+
+.banner_text p {
+    margin: 5px 0;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.clr {
+    clear: both;
+}
+
+</style>
 <body>
-<p>{{rider.username}}</p>
-<p>{{rider.email}}</p>
+
+
+ <section id="banner">
+        <div class="container">
+            <div class="banner_text">
+                <p>{{rider.username}}</p>
+               <p>{{rider.email}}</p>
 <p>{{rider.phone}}</p>
 <a href="{% url 'home' %}">Home</a>
-
+            </div>
+            <div class="clr"></div>
+        </div>
+    </section>
 </body>
 </html>
+

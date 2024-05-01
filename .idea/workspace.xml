@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="700dcbf6-026f-44a0-8057-6408ec44f5d4" name="Changes" comment="Fourth Commit">
-      <change beforePath="$PROJECT_DIR$/rb/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/rb/views.py" afterDir="false" />
+    <list default="true" id="700dcbf6-026f-44a0-8057-6408ec44f5d4" name="Changes" comment="eleven COMMIT">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/riderdetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/riderdetail.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,12 +35,12 @@
     &quot;assignee&quot;: &quot;Umaizabibi&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/yeasin906/Rikshaw.git",
-    "accountId": "fd4f69cd-f79b-40d7-9224-bb8d9e55c7a1"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/yeasin906/Rikshaw.git&quot;,
+    &quot;accountId&quot;: &quot;210f00e7-bb9b-4d0f-981d-40955ad41031&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -252,39 +254,7 @@
       <option name="project" value="LOCAL" />
       <updated>1714580648109</updated>
     </task>
-    <task id="LOCAL-00023" summary="First commit">
-      <option name="closed" value="true" />
-      <created>1714583374468</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1714583374468</updated>
-    </task>
-    <task id="LOCAL-00024" summary="Second commit">
-      <option name="closed" value="true" />
-      <created>1714583592495</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1714583592495</updated>
-    </task>
-    <task id="LOCAL-00025" summary="Third Commit">
-      <option name="closed" value="true" />
-      <created>1714589025399</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1714589025399</updated>
-    </task>
-    <task id="LOCAL-00026" summary="Fourth Commit">
-      <option name="closed" value="true" />
-      <created>1714589386303</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1714589386303</updated>
-    </task>
-    <option name="localTasksCounter" value="27" />
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -311,10 +281,6 @@
     <MESSAGE value="9th commit" />
     <MESSAGE value="TEN COMMIT" />
     <MESSAGE value="eleven COMMIT" />
-    <MESSAGE value="First commit" />
-    <MESSAGE value="Second commit" />
-    <MESSAGE value="Third Commit" />
-    <MESSAGE value="Fourth Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fourth Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="eleven COMMIT" />
   </component>
 </project>
